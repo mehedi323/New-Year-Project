@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 nav{
     height: 600px;
@@ -84,3 +85,71 @@ nav{
 }
 
 /* welcome party section end */
+
+.hotel-details{ 
+    width: 87%;
+    height: 400px; 
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color:aliceblue;
+    background: linear-gradient(rgb(236, 221, 221), rgb(250, 250, 252))
+}
+.hotel-details-text{ 
+    margin-top: 20px;
+    text-align: center;
+    padding: 120px;
+}
+.primary-color{
+    color: red;
+    line-height: 15px;
+}
+.btn-primary{
+   background-color: red;
+   padding: 10px 20px;
+   border: none;
+   border-radius: 10px;
+   font-size: 20px;
+   color: white;
+   margin-top: 10px;
+
+}
+
+/* hotel-details section end */
+
+.comming-soon-container{ 
+   max-width: 100%;
+    margin: 0 auto;
+    margin-top: 45px;
+}
+.comming-soon{
+    display: flex;  
+    justify-content: space-around;
+    align-items: center;
+}
+.left{
+ width: 300px;
+}
+.left h5{
+     color: red;
+}
+.middle{
+    width: 300px;
+}
+.middle img{
+    width: 300px;
+    border: 10px solid red;
+    padding: 20px;
+    border-radius: 50%;
+}
+.right{
+    width: 300px;
+}
+.right h1{
+    color: red; 
+}
+.right p{
+    margin-top: 30px;
+    margin-bottom: 45px;
+}
+
+/* comming-soon-container section end */
